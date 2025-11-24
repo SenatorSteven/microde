@@ -37,3 +37,6 @@
 [submodule "microwm"]
 	path = microwm
 	url = https://github.com/SenatorSteven/microwm
+[submodule "microswitcher"]
+	path = microswitcher
+	url = https://github.com/SenatorSteven/microswitcher
