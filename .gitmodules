@@ -1,0 +1,39 @@
+[submodule "microbar"]
+	path = microbar
+	url = https://github.com/SenatorSteven/microbar
+[submodule "microbrightness"]
+	path = microbrightness
+	url = https://github.com/SenatorSteven/microbrightness
+[submodule "microcompositor"]
+	path = microcompositor
+	url = https://github.com/SenatorSteven/microcompositor
+[submodule "microdesktop"]
+	path = microdesktop
+	url = https://github.com/SenatorSteven/microdesktop
+[submodule "microgesture"]
+	path = microgesture
+	url = https://github.com/SenatorSteven/microgesture
+[submodule "microlauncher"]
+	path = microlauncher
+	url = https://github.com/SenatorSteven/microlauncher
+[submodule "micropanel"]
+	path = micropanel
+	url = https://github.com/SenatorSteven/micropanel
+[submodule "microrun"]
+	path = microrun
+	url = https://github.com/SenatorSteven/microrun
+[submodule "microscreensaver"]
+	path = microscreensaver
+	url = https://github.com/SenatorSteven/microscreensaver
+[submodule "microsound"]
+	path = microsound
+	url = https://github.com/SenatorSteven/microsound
+[submodule "microtabber"]
+	path = microtabber
+	url = https://github.com/SenatorSteven/microtabber
+[submodule "microtransmitter"]
+	path = microtransmitter
+	url = https://github.com/SenatorSteven/microtransmitter
+[submodule "microwm"]
+	path = microwm
+	url = https://github.com/SenatorSteven/microwm
