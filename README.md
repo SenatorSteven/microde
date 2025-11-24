@@ -21,5 +21,20 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. -->
 
-# microde
-a
+# [ˈmaɪ.kroʊ.di.i]
+A meta-repository containing references to all parts of the MicroDE desktop environment
+
+# Parts
+- Window Manager
+- Compositor
+- Screensaver
+- Shortcut Manager
+- Gesture Manager
+- Brightness Manager
+- Sound Manager
+- Program Launcher
+- Desktop Manager
+- Status Bar
+- Program Panel
+- Window Switcher
+- IPC Message Dispatcher
