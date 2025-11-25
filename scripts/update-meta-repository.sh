@@ -30,18 +30,18 @@ true=1;
 false=0;
 
 function main(){
-	[ $true ] && { local directory="/tmp/microde-clone/";                                     } || :;
-	[ $true ] && { rm -rf "$directory";                                                       } || :;
-	[ $true ] && { mkdir -p "$directory";                                                     } || :;
-	[ $true ] && { git clone https://github.com/SenatorSteven/microde "$directory";           } || :;
-	[ $true ] && { cd "$directory";                                                           } || :;
-	[ $true ] && { git submodule update --init --recursive;                                   } || :;
-	[ $true ] && { git submodule foreach 'git checkout master || true';                       } || :;
-	[ $true ] && { git submodule foreach 'git pull --ff-only || true';                        } || :;
-	[ $true ] && { git add .;                                                                 } || :;
-	[ $true ] && { git commit -m "Updated submodule pointer";                                 } || :;
-	[ $true ] && { git push;                                                                  } || :;
-	[ $true ] && { rm -rf "$directory";                                             return 0; } || :;
+	[ $true ] && { local directory="/tmp/microde-clone/";                                                 } || :;
+	[ $true ] && { rm -rf "$directory";                                                                   } || :;
+	[ $true ] && { mkdir -p "$directory";                                                                 } || :;
+	[ $true ] && { git clone --recursive https://github.com/SenatorSteven/microde "$directory";           } || :;
+	[ $true ] && { cd "$directory";                                                                       } || :;
+	[ $true ] && { git submodule update --init --recursive;                                               } || :;
+	[ $true ] && { git submodule foreach 'git checkout master || true';                                   } || :;
+	[ $true ] && { git submodule foreach 'git pull --ff-only || true';                                    } || :;
+	[ $true ] && { git add .;                                                                             } || :;
+	[ $true ] && { git commit -m "Updated submodule pointer";                                             } || :;
+	[ $true ] && { git push;                                                                              } || :;
+	[ $true ] && { rm -rf "$directory";                                                         return 0; } || :;
 }
 
 main "$@";
