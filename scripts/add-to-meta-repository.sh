@@ -30,17 +30,17 @@ true=1;
 false=0;
 
 function main(){
-	[ $true     ] && { local directory="/tmp/microde-clone/";                                     } || :;
-	[   -z "$1" ] && { printf "$NAME: no argument\n" 1>&2;                              return 1; } || :;
-	[ ! -z "$2" ] && { printf "$NAME: too many arguments\n" 1>&2;                       return 1; } || :;
-	[ $true     ] && { rm -rf "$directory";                                                       } || :;
-	[ $true     ] && { mkdir -p "$directory";                                                     } || :;
-	[ $true     ] && { git clone https://github.com/SenatorSteven/microde "$directory";           } || :;
-	[ $true     ] && { cd "$directory";                                                           } || :;
-	[ $true     ] && { git submodule add https://github.com/SenatorSteven/"$1";                   } || :;
-	[ $true     ] && { git commit -m "Added submodule";                                           } || :;
-	[ $true     ] && { git push;                                                                  } || :;
-	[ $true     ] && { rm -rf "$directory";                                             return 0; } || :;
+	[ $true     ] && { local directory="/tmp/microde-clone/";                                                 } || :;
+	[   -z "$1" ] && { printf "$NAME: no argument\n" 1>&2;                                          return 1; } || :;
+	[ ! -z "$2" ] && { printf "$NAME: too many arguments\n" 1>&2;                                   return 1; } || :;
+	[ $true     ] && { rm -rf "$directory";                                                                   } || :;
+	[ $true     ] && { mkdir -p "$directory";                                                                 } || :;
+	[ $true     ] && { git clone --recursive https://github.com/SenatorSteven/microde "$directory";           } || :;
+	[ $true     ] && { cd "$directory";                                                                       } || :;
+	[ $true     ] && { git submodule add https://github.com/SenatorSteven/"$1";                               } || :;
+	[ $true     ] && { git commit -m "Added submodule";                                                       } || :;
+	[ $true     ] && { git push;                                                                              } || :;
+	[ $true     ] && { rm -rf "$directory";                                                         return 0; } || :;
 }
 
 main "$@";
