@@ -28,7 +28,7 @@ A meta-repository containing references to all parts of the MicroDE desktop envi
 
 Most of the programs/parts, if not all, are in a pre-alpha state and will continue to change and evolve alongside the MicroTK toolkit, thus changes will be immediate, without notice and often to the detriment of the user. The names of the programs/parts are subject to change themselves.
 
-# Parts
+## Parts
 - Window Manager
 - Compositor
 - Screensaver
