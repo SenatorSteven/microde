@@ -40,3 +40,6 @@
 [submodule "microswitcher"]
 	path = microswitcher
 	url = https://github.com/SenatorSteven/microswitcher
+[submodule "microconfiner"]
+	path = microconfiner
+	url = https://github.com/SenatorSteven/microconfiner

@@ -36,6 +36,7 @@ It is equally important to note that most of these programs, even if they're in 
 - Screensaver
 - Shortcut Manager
 - Gesture Manager
+- Pointer Confiner
 - Brightness Manager
 - Sound Manager
 - Program Launcher
