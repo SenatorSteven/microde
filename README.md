@@ -28,7 +28,7 @@ A meta-repository containing references to all parts of the MicroDE desktop envi
 
 Most of the programs/parts, if not all, are in a pre-alpha state and will continue to change and evolve alongside the MicroTK toolkit, thus changes will be immediate, without notice and often to the detriment of the user. The names of the programs/parts are subject to change themselves.
 
-It is equally important to note that most of these programs, even if they're in some sense "complete", do not utilize MicroTK as of yet.
+It is equally important to note that most of these programs, even if they're in some sense "complete", do not utilize MicroTK and the same compile script, they are not necessarily public as of yet but they do all use the cold header.
 
 ## Parts
 - Window Manager
