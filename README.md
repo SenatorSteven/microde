@@ -32,7 +32,7 @@ It is equally important to note that most of these programs, even if they're in 
 
 ## Parts
 - Window Manager
-- Compositor
+- Compositing Manager
 - Screensaver
 - Shortcut Manager
 - Gesture Manager
